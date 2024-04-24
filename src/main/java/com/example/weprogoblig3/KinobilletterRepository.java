@@ -23,7 +23,7 @@ public class KinobilletterRepository {
         List<Kinobilletter> alleKinobilletter = db.query(sql, new BeanPropertyRowMapper(Kinobilletter.class));
         return alleKinobilletter;
     }
-    public List<Kinobilletter> hentAlleKinobilletterSortetterEnavn() {
+    public List<Kinobilletter> hentAlleKinobilletterSortertEtterEtternavn() {
         String sql = "SELECT * FROM Kinobilletter";
         List<Kinobilletter> alleKinobilletter = db.query(sql, new BeanPropertyRowMapper<>(Kinobilletter.class));
 

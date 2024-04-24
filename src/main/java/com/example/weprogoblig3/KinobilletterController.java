@@ -30,6 +30,11 @@ public class KinobilletterController {
         return rep.hentAlleKinobilletter();
     }
 
+    @GetMapping("/hentAlleSortert")
+    public List<Kinobilletter> hentalleSortert() {
+        return rep.hentAlleKinobilletterSortertEtterEtternavn();
+    }
+
     @GetMapping("/slettAlle")
     public void slettAlle(){
         rep.slettAlleKinobilletter();
