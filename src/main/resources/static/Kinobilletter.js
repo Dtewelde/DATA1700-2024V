@@ -147,7 +147,6 @@ function blankInput() {
     document.getElementById('tfeilmelding').innerText = "";
     document.getElementById('epfeilmelding').innerText = "";
 
-
 }
 function deleteAll() {
     filmer.length = 0;

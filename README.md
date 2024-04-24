@@ -12,4 +12,5 @@ Her skal det være mulig å bestille, kjøpe og slette kinobilletter
 Må fylle inn riktig info
 Får feilmeldig om det er mangel på utfylling 
 Skal kunne se om det er lagt inn bestilling 
+Billetene skal være sortert etter etternavn når de sendes til serveren. 
 
