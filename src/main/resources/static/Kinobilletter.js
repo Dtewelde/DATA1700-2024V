@@ -28,7 +28,7 @@ function kjopBillett() {
     } else {
         let num = Number(document.getElementById('antall').value);
         if (isNaN(num)) {
-            document.getElementById('antallfeilmelding').innerText = "Må skrive inn antall"
+            document.getElementById('antallfeilmelding').innerText = "Må skrive antall"
             a++;
         }
         antall = document.getElementById('antall').value;
@@ -59,7 +59,7 @@ function kjopBillett() {
     } else {
         let num2 = Number(document.getElementById('tel').value);
         if (isNaN(num2)) {
-            document.getElementById('tfeilmelding').innerText = "Må skrive riktig telefonnummer"
+            document.getElementById('tfeilmelding').innerText = "Må skrive antall"
             a++;
         }
         tel = (document.getElementById('tel').value);
@@ -156,8 +156,6 @@ function deleteAll() {
     document.getElementById('booket').innerHTML = "";
     blankInput();
 }
-filmer.sort();
-document.getElementById(filmer).innerHTML = filmer
 
 
 
