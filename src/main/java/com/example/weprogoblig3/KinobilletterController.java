@@ -35,15 +35,9 @@ public class KinobilletterController {
         rep.slettAlleKinobilletter();
     }
 
-    @GetMapping("/hentAlleSortert")
-    public List<Kinobilletter> hentalleSort() {
-        return rep.hentAlleKinobilletterSortetterEnavn();
-    }
-
-
  /*   @PostMapping("/lagre")
     public String lagreMann(){
         return "vi har lagret mann på server";
     }
 */
-}
+};
